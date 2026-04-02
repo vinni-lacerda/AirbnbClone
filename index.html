@@ -16,11 +16,46 @@
             <div class="hero-image">
                 <img src="https://a0.muscache.com/im/pictures/9caaca2d-6892-4638-b675-6a879974f5ed.jpg?im_w=960" alt="">
                 <form class="search-form">
+                    <h1>Encontre lugares para ficar no Airbnb</h1>
+                    <p>Descubra espaços inteiros e quartos privativos perfeitos para todas as viagens.</p>
+                    <div class="form-group">
+                        <label for="location">Localização</label>
+                        <input type="text" placeholder="Perto de você" id="location">
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="checkin">Check-in</label>
+                            <input type="date" name="checkin" id="checkin" placeholder="Insira as datas">
+                        </div>
+                        <div class="form-group">
+                            <label for="checkout">Checkout</label>
+                            <input type="date" name="checkout" id="checkout" placeholder="Insira as datas">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="adults">Adultos</label>
+                            <select name="adults" id="adults">
+                                <option value="1">1</option>
+                                <option value="2" selected>2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="children">Crianças</label>
+                            <select name="children" id="children">
+                                <option value="0" selected>0</option>
+                                <option value="1" selected>1</option>
+                                <option value="2" selected>2</option>
+                                <option value="3" selected>3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit">Buscar</button>
                 </form>
             </div>
-
         </div>    
     </section>
-    </div>
 </body>
 </html>
