@@ -24,3 +24,32 @@
     margin-left: 1%;
     margin-top: 0.3%;
 }
+.hero{
+    border: solid red;
+    display: flex;
+    justify-content: center;
+}
+.hero-content{
+    width: 78%;
+    display: flex;
+    justify-content: end;
+    border: solid red;
+    padding-top: 50px;
+    padding-left: 300px;
+}
+.hero-image{
+    position: relative;
+    border: solid red;
+    width: 80%;
+    margin-right: 7%;
+}
+.hero-image img{
+    width: 100%;
+    border-radius: 24px;
+}
+/* .search-form{
+    border: solid red;
+    width: 40px;
+    position: absolute;
+
+} */
