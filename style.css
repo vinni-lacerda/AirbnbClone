@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
 *{
     margin: 0px;
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
 .main-header{
     top: 0;
@@ -48,22 +50,22 @@
     border-radius: 24px;
 }
 .search-form{
-    border: solid yellow;
+    /* border: solid yellow; */
     width: 420px;
-    padding: 20px;
+    padding: 35px;
     position: absolute;
     top: 50px;
     left: -300px;
     border-radius: 16px;
     background: white;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.271);
     display: flex;
     flex-direction: column;
     gap: 4px;
 }
 .search-form h1{
-    font-size: 22px;
-    margin-bottom: 8px;
+    font-size: 32px;
+    font-weight: bolder;
 }
 .search-form p{
     padding-top: 5px;
@@ -75,20 +77,17 @@
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    border: 1px, solid #dddddd00;
-    /* gap: 4px; */
+    border: solid rgba(0, 0, 0, 0.088);
 }
 .form-row{
     display: flex;
-    /* gap: 10px; */
 }
 .form-row, .form-group{
     flex: 1;
 }
 .form-group input, .form-group select{
     padding: 10px;
-    /* border-radius: 8px;
-    border: 1px, solid #ddd; */
+    border: 1px, solid #df1a1a;
     font-size: 14px;
     border: none;
 }
@@ -102,10 +101,12 @@
     flex-direction: column;
 }
 .hero-button{
-    background-color: #cf3434;
+    background-color: #E61B60;
     color: white;
-    padding: 10px;
+    padding: 14px;
+    margin-top: 10px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 12px;
+    box-shadow: none;
 }
