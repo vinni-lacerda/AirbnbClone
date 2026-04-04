@@ -32,13 +32,13 @@
     width: 90%;
     display: flex;
     justify-content: end;
-    border: solid red;
+    /* border: solid red; */
     padding-top: 50px;
     padding-left: 300px;
 }
 .hero-image{
     position: relative;
-    border: solid red;
+    /* border: solid red; */
     width: 90%;
 
     margin-right: 7%;
@@ -75,12 +75,12 @@
     display: flex;
     flex-direction: column;
     border-radius: 8px;
-    border: 1px, solid #ddd;
-    gap: 4px;
+    border: 1px, solid #dddddd00;
+    /* gap: 4px; */
 }
 .form-row{
     display: flex;
-    gap: 10px;
+    /* gap: 10px; */
 }
 .form-row, .form-group{
     flex: 1;
@@ -90,4 +90,22 @@
     /* border-radius: 8px;
     border: 1px, solid #ddd; */
     font-size: 14px;
+    border: none;
+}
+.form-group label{
+    padding: 10px;
+}
+.separator{
+    border: 1px solid green;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.hero-button{
+    background-color: #cf3434;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 12px;
 }
